@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
+		<link rel=”apple-touch-icon” href=”/apple-touch-icon.png”/>
+		<link rel=”apple-touch-icon-precomposed” href=”/apple-touch-icon.png”/>
+		<title>Appa</title>
+		
+		<link rel="stylesheet" href="themes/jquery.mobile.custom.structure.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.custom.theme.css" />
+		<link rel="stylesheet" href="themes/slider/jquery-ui-1.10.1.custom.min.css" />
+		<link rel="stylesheet" href="themes/status/style.css" />
+		<link rel="stylesheet" href="themes/knob/rotate.css" />
+		<link rel="stylesheet" href="themes/master.css" />
+		<link rel="stylesheet" href="themes/import.css" />
+		<link rel="stylesheet" href="themes/layout.css" />
+		<link rel="stylesheet" href="themes/knob/knobstyle.css" />
+		<script src="themes/jquery.min.js"></script>
+		<script src="themes/jquery.mobile.custom.min.js"></script>
+		<script src="themes/survey/jquery.cycle.all.js"></script>
+		<script src="themes/status/iphone-style-checkboxes.js"></script>
+		<script src="themes/slider/jquery.ui.core.js"></script>
+		<script src="themes/slider/jquery.ui.widget.js"></script>
+		<script src="themes/slider/jquery.ui.mouse.js"></script>
+		<script src="themes/slider/jquery.ui.slider.js"></script>
+		<script src="themes/knob/rotate.js"></script>
+		<script src="themes/jquery.touch-punch.min.js"></script>
+		<script src="themes/survey/jquery.touchwipe.js"></script>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-39144816-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+	</head>
+	<body>
+	
+		<div data-role="page" data-theme="a" class="survey_slides" id="survey_page">
+			
+			<div data-role="header" data-position="inline">
+				
+				<div class="heade_wrap">
+					<div class="logo_out">
+						<div class="logo">
+							<a href="#"><img src="themes/images/main_logo.png" alt="Appa" title="Appa"></a>
+						</div>
+					</div>
+					<div class="header_bottom">
+						<div class="border_body_left">
+							<div class="border_body_right">
+								<div class="grate_wrap">
+									&nbsp;
+								</div>
+								<div class="header_bottom_space">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- Survey Slide  -->
+			
+			<div data-role="content" data-theme="a">
+				
+					
+				<div class="border_body_left">
+					<div class="border_body_right with_page_popup">
+					
+						
+						<div class="content_area_popup" id="pop_up_box">
+							
+							<div class="pop_up_outer">
+							<div class="popup_container">
+								<div class="pop_box_out">
+									<div class="pop_box">
+										<div class="pop_content">
+											
+											
+										</div>									
+										<div class="pop_link">
+										<a href="#" class="toggle_div2"><img src="themes/images/back.png" alt="Back" title="Back"></a>
+									</div>
+									</div>
+									
+
+									
+									
+								</div>
+							</div>
+							</div>
+						</div>
+						
+						
+					
+						<div class="content_area">
+						
+							<div id="surveyslide" class="survey_content_wrapper">
+
+								<div class="survey_content how_complex_mobile_experience" data-soundtype="odd">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/how_complex_mobile_experience.png">
+											</div>
+											<div class="survey_control_wrap">
+												<div class="knob_container mobile_experience">
+													<div class="tt-ev" id="mobile_experience">
+														<input type="hidden" name="hdr_ev" id="hdr_ev" value="2" />
+														<div class="touch_handler"></div>
+														<div class="tt-ev-handle">
+															<div class="tt-ev-values">
+																<div class="tt-ev-val" data-val="0"><div class="tt-icon low_icon"><div class="tt-icon-i tt-low"></div></div></div>
+																<div class="tt-ev-val" data-val="1"><div class="tt-icon medium_icon"><div class="tt-icon-i tt-medium"></div></div></div>
+																<div class="tt-ev-val" data-val="2"><div class="tt-icon high_icon"><div class="tt-icon-i tt-high"></div></div></div>
+															</div>
+														</div>
+														<div class="tt-ev-knob">
+															
+														</div>
+														<div class="tt-ev-after"></div>
+													</div>
+												</div>												
+											</div>			
+											<div class="pop_up_text">
+												<div class="pop_up_text_with_p_margin">
+													<h3>Highly complex</h3>
+													<p>experiences include games, simulators and anything that uses a device feature, like GPS.</p>
+													<h3>Medium complexity</h3>
+													<p>includes entering personal information in a form, in-page tabs, performing calculations and more. </p>
+													<h3>Low complexity</h3>
+													<p>includes viewing animations, video, sound and images.</p>
+												</div>
+											</div>
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>							
+							
+								<div class="survey_content stay_up_to_date" data-soundtype="even">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/users_stay_uptodate-b.png">
+											</div>
+											<div class="survey_control_wrap">
+												<div class="kngr knbr-a">
+													<div class="kn knoba"></div>
+													<div class="knvala">
+														<div data-rot="2"></div>
+														<div data-rot="1"></div>
+														<div data-rot="0"></div>
+													</div>
+													<div class="kna-slider ksld"></div>					
+												</div>												
+												<!--<form action="#">
+													<input type="radio" value="2" id="fq20" name="fqq2"/><label for="fq20">Push notifications</label>
+													<input type="radio" value="1" id="fq21" name="fqq2" checked="checked"/><label for="fq21">Auto updates</label>
+													<input type="radio" value="0" id="fq22" name="fqq2"/><label for="fq22">Downloads</label>
+												</form>-->
+											</div>											
+											<div class="pop_up_text">
+												<p><strong>Push notifications</strong> advises the user of a mobile update, which must be downloaded.</p>
+												<br />
+												<p><strong>Automatic updates</strong> take place without the user being aware.</p>
+												<br />
+												<p><strong>Downloads</strong> require a user to download an entire new mobile experience.</p>
+											</div>
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+							
+								<div class="survey_content should_it_easy" data-soundtype="odd">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+										
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-knob">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+												<img src="themes/images/easy_to_share.png">
+											</div>		
+											
+											<div class="survey_control_wrap">
+												<div id="staus_switch" class="switch_share">
+													<div class="switch_share_wrap">
+														<span class="off_led check_status"></span>
+														<input type="checkbox" id="yes_no" checked="checked"/>
+														<span class="on_led check_status"></span>
+													</div>
+												</div>
+												<div class="yes_no_text"><img src="themes/status/yes_no_text.png" alt="Yes No" /></div>
+											</div>
+											
+											<div class="pop_up_text">
+												<p>An example of an easy share is sending a link, either through email or social media. Experiences that are purchased through an online store tend to be harder to share or send. </p>
+											</div>
+										</div>
+										
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content" data-soundtype="even">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid internet_connection">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-knob">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+												<img src="themes/images/slider_texts/internet_connection.png">
+											</div>
+											
+											<div class="survey_control_wrap">
+												<div class="switch_out_cylinder_wrap">
+													<div class="switch_out_cylinder">
+													
+														<div class="OnOff Off">
+															 <span class="on">&nbsp;</span> 
+															 <input type="hidden" value="1" class="switch_val">
+															 <span class="off">&nbsp;</span>
+														 </div>
+														 
+													 </div>
+												</div>
+											</div>
+											
+											<div class="pop_up_text">
+												<p>Users in some locations, like a hospital, could find it hard to connect to the Internet. Modern technologies have come a long way, and many experiences do not require a signal. Don’t be afraid to go without!</p>
+											</div>
+											
+										</div>											
+										
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content mobile_experience" data-soundtype="odd">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/mobile_experience.png">
+											</div>
+											<div class="survey_control_wrap">
+												<div class="kngr kngr-b">			
+													<div class="knvalb">
+														<div></div>
+														<div></div>
+														<div></div>
+													</div>
+													<div class="knb-slider ksld"></div>
+													<div class="kn knobb"></div>
+												</div>										
+												<!--<form action="#">
+													<input type="radio" value="1" id="fq50" name="fqq5"/><label for="fq50">Internet search</label>
+													<input type="radio" value="1" id="fq51" name="fqq5"/><label for="fq51">Private link</label>
+													<input type="radio" value="0" id="fq52" name="fqq5" checked="checked"/><label for="fq52">App/Book Store</label>
+												</form>-->
+											</div>
+											<div class="pop_up_text">
+												<div class="pop_up_text_with_p_margin">
+													<p><strong>Internet search</strong> refers to a user finding your experience through a direct link via Google or another search engine.</p>
+													<p><strong>Private link</strong> is for experiences that are not public, ideal for medical device detailing.</p>
+													<p><strong>App/Book</strong> stores are public environments for your experience – anybody can get to it.</p>
+												</div>
+											</div>
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content need_stats_slide" data-soundtype="even">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											<div class="content_inner">
+												<div class="info_i">
+													<a href="#" class="toggle_div2" data-knobtype="snd-knob">&nbsp;</a>
+												</div>
+												
+												<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/need_stats.png" alt="Need Stats" />
+												</div>
+												
+												<div class="survey_control_wrap">
+													<div id="analytics_switch" class="lever_switch_horizontal">
+														<div class="lever_switch_wrap">
+															<input type="checkbox" id="analytics_input" checked="checked"/>
+														</div>
+													</div>
+												</div>
+												
+												<div class="pop_up_text">
+													<p>Usage statistics help determine the most valuable content and provide insight for future enhancements. Analytics programs are typically free or low-cost and available for most mobile experiences, save for ePUBS.</p>
+												</div>
+												
+											</div>
+											
+											
+											
+											
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content connect_database" data-soundtype="odd">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/connect_database.png">
+											</div>
+											<div class="survey_control_wrap">
+												<div class="knob_container">
+													<div class="tt-ev" id="connect_database_control">
+														<input type="hidden" name="connect_database" id="connect_database" value="1" />
+														<div class="touch_handler"></div>
+														<div class="tt-ev-handle">
+															<div class="tt-ev-values">
+																<div class="tt-ev-val" data-val="0"><div class="tt-icon no_icon"><div class="tt-icon-i tt-no"></div></div></div>
+																<div class="tt-ev-val" data-val="1"><div class="tt-icon yes_icon"><div class="tt-icon-i tt-yes"></div></div></div>
+															</div>
+														</div>
+														<div class="tt-ev-knob">
+															
+														</div>
+														<div class="tt-ev-after"></div>
+													</div>
+												</div>												
+											</div>
+											<div class="pop_up_text">
+													<p>Is your experience a portal for member account services that requires a login? Or does it use personal data, like check-ins, fitness goals or physician information? If so, you need a database. </p>
+											</div>
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content want_to_go_live" data-soundtype="even">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/want_to_go_live.png">
+											</div>
+											
+											<div class="switch_scroll_wrap">
+												<div class="switch_scroll_one">
+													<div class="switch_scroll_text">
+														<ul>
+															<li><img src="themes/images/switch_scroll_one/switch_li_bg_1.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch_li_bg_2.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch_li_bg_3.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch_li_bg_4.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch_li_bg_5.jpg"></li>
+														</ul>
+													</div>
+													<div class="switch_scroll_scale">
+														&nbsp;
+													</div>
+													<div class="switch_scroll_one_bg">
+														<div id="live_slider"></div>
+														<input type="hidden" id="live_value"/>
+													</div>
+												</div>
+											</div>
+											
+											<div class="pop_up_text">
+													<p>Some projects can take up to one year, while others are quick to market. The more complex your experience is, the longer
+it will take. But don’t let time dissuade you from building the most robust mobile experience you can dream up. </p>
+											</div>
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+								
+								<div class="survey_content whats_your_budget" data-soundtype="odd">
+									<div class="content_area_top">
+										&nbsp;
+									</div>
+									<div class="content_area_mid">
+										<div class="survey_text">
+											
+										<div class="content_inner">
+											<div class="info_i">
+												<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+											</div>
+											<div class="survey_slide_title">
+													<img src="themes/images/slider_texts/budget.png">
+											</div>
+											
+											<div class="switch_scroll_wrap">
+												<div class="switch_scroll_two">
+													<div class="switch_scroll_text">
+														<ul>
+															<li><img src="themes/images/switch_scroll_one/switch2_li_bg_1.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch2_li_bg_2.jpg"></li>
+															<li><img src="themes/images/switch_scroll_one/switch2_li_bg_3.jpg"></li>
+														</ul>
+													</div>
+													<div class="switch_scroll_scale">
+														&nbsp;
+													</div>
+													<div class="switch_scroll_one_bg">
+														<div id="live_slider2"></div>
+														<input type="hidden" id="live_value2"/>
+													</div>
+												</div>
+											</div>
+											
+											<div class="pop_up_text">
+													<p>Your budget should be enough to cover development time and complexity. The more robust an experience, the more budget you should allow. To eliminate spending risk on big jobs, always request a prototype you can test with users.</p>
+											</div>
+											
+											
+										</div>
+										
+										</div>
+									</div>
+									<div class="content_area_bottom">
+										&nbsp;
+									</div>
+								</div>
+	
+							</div>
+						
+						</div>
+				
+					</div>		
+				</div>		
+				
+				
+			</div>		
+			
+			
+			
+			<div data-role="footer">
+				
+				<div class="footer_bottom_home">
+					<div class="survey_footer">
+						<a class="survey_control" id="prev" href="#"><img src="themes/survey/survey_back.png" alt="Previous"></a>
+						<div id="survey_slide_nav"></div>
+						<a class="survey_control" id="next" href="#"><img src="themes/survey/survey_next.png" alt="Next"></a>
+					</div>
+				</div>
+				
+			</div>
+					
+		</div>
+		<div class="hidden-stuff">
+			<div class="sound-bank">
+				<audio src="themes/sounds/turn_on.mp3" id="snd-appa"></audio>
+				<audio src="themes/sounds/bassLoop1.mp3" id="snd-bass1"></audio>
+				<audio src="themes/sounds/bassLoop2.mp3" id="snd-bass2"></audio>
+				<audio src="themes/sounds/chord1.mp3" id="snd-chord1"></audio>
+				<audio src="themes/sounds/chord2.mp3" id="snd-chord2"></audio>
+				<audio src="themes/sounds/chordfinal.mp3" id="snd-chordend"></audio>
+				<audio src="themes/sounds/dial.mp3" id="snd-dial"></audio>
+				<audio src="themes/sounds/knob.mp3" id="snd-knob"></audio>
+				<audio src="themes/sounds/switch.mp3" id="snd-switch"></audio>
+				<audio src="themes/sounds/turn_on.mp3" id="snd-on"></audio>		
+			</div>
+			<div class="prefetch-pages">
+				<a href="dps.html" data-prefetch></a>
+				<a href="epub.html" data-prefetch></a>
+				<a href="html_website.html" data-prefetch></a>
+				<a href="mobile_app.html" data-prefetch></a>
+				<a href="web_app.html" data-prefetch></a>
+			</div>
+			<div class="bonus-qs">
+								
+				<div class="survey_content should_your_logo_here" data-soundtype="even">
+					<div class="content_area_top">
+						&nbsp;
+					</div>
+					<div class="content_area_mid">
+						<div class="survey_text">
+							
+						<div class="content_inner">
+							<div class="info_i">
+								<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+							</div>
+							<div class="survey_slide_title">
+									<img src="themes/images/slider_texts/logo_text.png">
+							</div>
+							<div class="switch_scroll_wrap">
+								<div class="kngr kngr-c">
+									<div class="knc-slider ksld"></div>
+									<div class="kn knobc"></div>
+									<div class="knvalc"></div>
+								</div>
+							</div>											
+							<div class="pop_up_text">
+									<p>LOL – you got this one, right? The logo does not need to be bigger. Fear not, mobile rockstar, this question won’t affect your results. Winner!</p>
+							</div>
+							
+						</div>										
+						
+						</div>
+					</div>
+					<div class="content_area_bottom">
+						&nbsp;
+					</div>
+				</div>
+				
+				<div class="survey_content will_your_users_have" data-soundtype="even">
+					<div class="content_area_top">
+						&nbsp;
+					</div>
+					<div class="content_area_mid">
+						<div class="survey_text">
+							
+						<div class="content_inner">
+							<div class="info_i">
+								<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+							</div>
+							<div class="survey_slide_title">
+									<img src="themes/images/slider_texts/users_have.png">
+							</div>
+							
+							<div class="switch_scroll_wrap switch_scroll_wrap_vertical">
+								<div class="switch_scroll_three">
+									
+									<div class="switch_vertical_text">
+										<ul>
+											<li><img src="themes/images/switch_scroll_one/scroll_vertical_libg_1.png"></li>
+											<li><img src="themes/images/switch_scroll_one/scroll_vertical_libg_2.png"></li>
+											<li><img src="themes/images/switch_scroll_one/scroll_vertical_libg_3.png"></li>
+										</ul>
+									</div>
+									<div class="switch_vertical_dividers">
+										<ul>
+											<li class="vertical_first"><img src="themes/images/switch_scroll_one/vertical_li_point.jpg"></li>
+											<li class="vertical_second"><img src="themes/images/switch_scroll_one/vertical_li_point.jpg"></li>
+											<li class="vertical_third"><img src="themes/images/switch_scroll_one/vertical_li_point.jpg"></li>
+										</ul>
+									</div>
+									
+									<div class="switch_scroll_vertical">
+										<div id="live_slider3"></div>
+										<input type="hidden" id="live_value3"/>
+									</div>
+								</div>
+							</div>											
+							<div class="pop_up_text">
+									<p><i>What the…why do you need to know this?</i> We don't, we just wanted to keep you on your toes. Whatever you select here won’t affect the outcome. Make a guess!</p>
+							</div>
+							
+						</div>
+						
+						
+						</div>
+					</div>
+					<div class="content_area_bottom">
+						&nbsp;
+					</div>
+				</div>
+				
+				<div class="survey_content which_are_you" data-soundtype="even">
+					<div class="content_area_top">
+						&nbsp;
+					</div>
+					<div class="content_area_mid">
+						<div class="survey_text">
+							
+						<div class="content_inner">
+							<div class="info_i">
+								<a href="#" class="toggle_div2" data-knobtype="snd-dial">&nbsp;</a>
+							</div>
+							<div class="survey_slide_title">
+									<img src="themes/images/slider_texts/which_are_you.png">
+							</div>
+							<div class="switch_scroll_wrap">
+								<div class="kngr kngr-d">
+									<div class="knvald"></div>
+									<div class="kn knobd"></div>			
+									<div class="knd-slider ksld"></div>
+								</div>
+							</div>										
+							<div class="pop_up_text">
+									<p>Since you’re using Appa, this much is true – you are brilliant! Whatever you select here won't affect the outcome, but this app is guaranteed to enhance your career.</p>
+							</div>
+							
+						</div>
+						
+						</div>
+					</div>
+					<div class="content_area_bottom">
+						&nbsp;
+					</div>
+				</div>
+				
+			
+			</div>
+		</div>
+		<script src="themes/main.js"></script>
+		<script src="themes/main_test.js"></script>
+	</body>
+</html>

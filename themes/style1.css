@@ -1,0 +1,46 @@
+.content_area{position:relative;}
+.popup_wrapper{position:absolute; width:95%; max-width:600px; /* right:-100%; */ display:none;}
+.popup_content{float:left; width:90%; padding:15px 5%; background:green; min-height:250px;}
+
+.survey_content_wrapper{float:left; width:100% !important;}
+.survey_content{float:left; width:100% !important; display:none; color:#FFF; }
+.survey_content:first-child{display:block;}
+
+.survey_footer{margin:0 auto; width:100%; text-align:center; max-width:669px; background:url(../themes/survey/survey_footer_bg.png) repeat-x top; overflow:hidden;}
+.survey_footer .survey_control{margin: 0;}
+.survey_footer #prev{float:left; }
+.survey_footer #next{float:right;}
+.survey_footer .survey_control img{width:100%;}
+
+#survey_slide_nav{display:inline-block; width:auto; padding:30px 0;}
+#survey_slide_nav a{display:inline-block; width:19px; height:19px; background:url(../themes/survey/slide_bullet.png) no-repeat; text-indent:-9999em; margin:0 3px;}
+#survey_slide_nav a.activeSlide{background:url(../themes/survey/slide_active_bullet.png) no-repeat;}
+
+.yes_no_text{float:left; width:100%; text-align:center;}
+.yes_no_text img{width:100%;}
+.check_status{display:inline-block; width:19px; height:19px; margin:35px 10px 0; background:url(../themes/survey/status_label.png) no-repeat center center;}
+.check_status.off_led{float:left;}
+.check_status.activeStatus.off_led{background-position:center bottom;}
+.check_status.on_led{float:right;}
+.check_status.activeStatus.on_led{ background-position:center top;}
+
+.switch_share_wrap{max-width:280px; width:100%; margin:0 auto;}
+
+
+#analytics_switch .lever_switch_wrap{width:100%; max-width:390px; background:url(../themes/survey/analytics_yes_no_text.png) no-repeat center center; margin:0 auto; overflow:hidden; background-size:100% auto;}
+#analytics_switch .iPhoneCheckContainer{margin:0 auto; width:118px !important; height:52px; background:url(../themes/survey/analytics_switch_bg.png) no-repeat center center;}
+#analytics_switch .iPhoneCheckHandle{height:59px; min-width:34px;}
+#analytics_switch .iPhoneCheckHandleCenter{background:url(../themes/survey/analytics_switch_lever.png) no-repeat -7px center;left: -11px;position: relative;}
+
+.survey_slide_title{float:left; width:100%; min-height:175px; text-align:center;}
+.survey_slide_title img{width:100%;}
+.need_stats_slide .survey_slide_title img{max-width:338px;}
+
+.survey_control_wrap{float:left; width:100%;}
+
+
+
+
+
+
+

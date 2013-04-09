@@ -1,0 +1,10 @@
+@font-face {
+		font-family: 'GRENDELBOLD';
+		src: url('fonts/grendelbold.eot');
+		src: url('fonts/grendelbold.eot?#iefix') format('embedded-opentype'),
+				 url('fonts/grendelbold.woff') format('woff'),
+				 url('fonts/grendelbold.ttf') format('truetype'),
+				 url('fonts/grendelbold.svg#grendelbold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}

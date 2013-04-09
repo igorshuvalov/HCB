@@ -1,0 +1,220 @@
+@media only screen and (min-width: 1024px) {
+	.pop_link.web_app_link{ bottom:10px;}
+}
+@media only screen and (max-width: 1040px) {
+
+}
+@media only screen and (min-width: 1023px) and (max-width: 1040px) {
+
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1023px) {
+	
+}
+
+@media only screen and (min-width: 768px) {
+	
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.header_bottom_space{ height:85px;}
+	.pop_up_outer{ margin-top:-250px;}
+	.pop_content p{ font-size:28px; line-height:29px;}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+	.heade_wrap{ background-size:150px auto;}
+	.logo_out{ min-height:110px;}
+	.logo{ max-width:235px;}
+	.logo a{ margin-top:15px;}
+	.header_bottom_space{ height:40px;}
+	.survey_slides .header_bottom_space{ height:0px;}
+	.content_area{ background-size:100% auto;}
+	.jack_bg_single{ margin-left:55px;}
+	.jack_bg_multiple{ margin-right:25px;}
+	
+	.content_area_top{ background-size:100% auto; height:40px; }
+	.content_area_mid{ background-size:100% auto; }
+	.content_area_bottom{  background-size:100% auto; height:40px;  }
+	.content_area_mid.no_left_right_padding{ padding:5% 0px; width:100%;}
+	.pop_up_outer{}
+	.survey_slides .pop_up_outer{ margin-top:-240px;}
+	
+	.pop_link{ bottom:85px; left:45px;}
+	.pop_link a{ max-width:130px; float:left; height:auto;}
+	.pop_link a img{ width:100%; float:left;}
+	
+	.heade_wrap.with_amblifier { background-position: left -49px; min-height: 120px;}
+	.content_area_mid.with_less_padding_bottom{ padding:5px 10%; width:80%;}
+	
+	.switch_share .iPhoneCheckContainer{ width:130px!important; height:52px!important; background-size:135px auto;}
+	.switch_share .iPhoneCheckHandle .iPhoneCheckHandleCenter{ width:60px; height:45px; background-size:60px auto;}
+	.switch_share .iPhoneCheckHandle {height: 45px !important; width: 60px !important;}
+	.content_area_mid{ min-height:150px;}
+	.switch_one_wrap{ margin-top:40px;}
+	
+	.info_i{ background-size:40px auto; height:70px; width:42px; left:-30px; top:20px;}
+	.info_i a{ height:70px;}
+}
+
+@media only screen and (min-width: 480px) {
+	
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.result_link_out a{ max-width:267px; height:53px;}
+	.result_link{ margin-bottom:5px;}
+	.pop_content p{ font-size:28px; line-height:32px;}
+	.pop_box{ left:5px;}
+	.pop_content p{ font-size:22px; line-height:25px;}
+	.pop_content ul li{ font-size:18px; line-height:20px;}
+	
+	.logo_out_amp{ min-height:60px;}
+	.about_content h4{ font-size:20px; line-height:26px;}
+	.about_content p{ font-size:18px;}
+	.hc_logo_wrap{ max-width:300px;}
+	.about_content h5{ font-size:15px;}
+	.about_content li{ font-size:15px;}
+	
+	.survey_footer{background-size: auto 92%;}
+	.survey_footer .survey_control{max-width:100px;}
+	#survey_slide_nav { padding: 15px 0;}
+	#survey_slide_nav a{background-size: 100% auto; width:14px; height:14px; line-height:14px;}
+	#survey_slide_nav a.activeSlide{background-size: 100% auto;}
+	
+	/*.switch_text{ max-width:300px;}*/
+	
+	.switch_share_wrap{ max-width: 220px;}
+	.check_status{margin: 16px 10px 0;}
+	.switch_text img{ max-width:280px;}
+	
+	.survey_slide_title{min-height: 135px;}
+	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	.jack_bg_single{ margin-left:40px;}
+	.jack_bg_single .jack_img{ max-width:58px; width:100%; margin-top:18px;}
+	.jack_bg_multiple .jack_img{ max-width:120px; width:100%; margin-top:18px;}
+	.jack_bg_single .jack_img img{ width:100%; float:left;}
+	.jack_bg_multiple .jack_img img{ width:100%; float:left;}
+	.hc_logo{ max-width:70px;}
+	.jack_text{ max-width:50px; margin:0 auto;}
+	.jack_text img{ float:left; width:100%;}
+	.footer_screw_bg{ margin-top:-18px;}
+	.content_area_top{ height:26px; }
+	.content_area_bottom{height:26px;  }
+	
+	.switch{ background-size:159px auto!important; height:68px; width:80px;}
+	.switch_label{ width:80px; height:68px;}
+	.switch_wrap{ max-width:75px;}
+	.switch_outer_bg{ background-position:center 36px; background-size:208px auto;}
+	
+	.switch_text img{ max-width:180px;}
+	.switch_scroll_wrap{ margin-top:30px;}
+	
+	.switch_vertical_text ul li{ max-width:60px; margin-left:19px;}
+	.switch_scroll_three .switch_scroll_vertical{ width:160px;}
+	.switch_scroll_three{ width:220px;}
+	.switch_scroll_three .ui-slider-handle{ width:30px; height:37px; margin-top:-8px; background-size:35px auto;}
+	.switch_vertical_dividers{ margin-bottom:0px;}
+	.switch_vertical_dividers ul li.vertical_first{ margin-left:28px;}
+	.switch_vertical_dividers ul li.vertical_second{ margin-left:78px;}
+	.switch_vertical_dividers ul li.vertical_third{ margin-right:28px;}
+	.switch_scroll_wrap.switch_scroll_wrap_vertical{ margin-top:100px;}
+	
+	.switch_out_cylinder .OnOff{ margin-left:31px;}
+	.switch_out_cylinder{ padding:62px 0px; width:95px; background-size:100px auto;}
+	.switch_scroll_wrap{ padding-top:50px;}
+	.survey_slide_title img{ width:65%;}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+	.result_link_out a, .result_link_out a.back_over{ max-width:180px; height:37px;}
+	.result_link{ margin-bottom:3px;}
+	.pop_content{ padding:40px 5px 10px 40px;}
+	.pop_content p{ font-size:20px; line-height:24px;}
+	.pop_box{ left:5px;}
+	.pop_content h3{ font-size:27px; line-height:27px;}
+	.pop_content ul li{ font-size:17px; line-height:19px;}
+	
+	.heade_wrap.with_amblifier { min-height: 42px;}
+	.logo_out_amp{ min-height:42px;}
+	.about_content h4{ font-size:16px; line-height:26px;}
+	.about_content p{ font-size:18px;}
+	.hc_logo_wrap{ max-width:200px;}
+	.about_content h5{ font-size:13px;}
+	.about_content li{ font-size:13px;}
+	
+	.survey_footer{background-size: auto 87%;}
+	.survey_footer .survey_control{max-width:65px;}
+	#survey_slide_nav { padding: 7px 0;}
+	#survey_slide_nav a{background-size: 100% auto; width:10px; height:10px; margin: 0 2px; line-height:10px;}
+	#survey_slide_nav a.activeSlide{background-size: 100% auto;}
+	
+	/*.switch_text{ max-width:200px;}*/
+	.switch_share_wrap{max-width: 210px;}
+	.check_status{margin: 17px 10px 0;}
+	
+	.switch_scroll_text ul li img{ max-width:136px;}
+	.switch_scroll_text ul li{ padding-bottom:24px;}
+	.switch_scroll_text ul{ padding-top:53px;}
+	
+	.survey_slide_title{min-height: 90px;}
+	.info_i{ left:-20px;}
+}
+
+@media only screen and (max-width : 319px) {
+	.jack_bg_single{ margin-left:25px;}
+	.jack_bg_multiple{ margin-right:10px;}
+	.content_area_top{ height:20px; }
+	.content_area_bottom{height:20px;  }
+	
+	.result_link_out a, .result_link_out a.back_over{ max-width:135px; height:30px;}
+	.result_link{ margin-bottom:0px;}
+	.pop_content{ padding:35px 5px 10px 35px;}
+	.pop_content p{ font-size:15px; line-height:19px;}
+	.pop_link{ max-width:90px; left:45px;}
+	.pop_box{ left:3px;}
+	.pop_content h3{ font-size:20px; line-height:23px;}
+	.pop_content ul li{ font-size:13px; line-height:16px; margin-bottom:7px;}
+	.pop_content ul{ padding-left:25px;}
+	
+	.heade_wrap.with_amblifier { min-height: 90px;}
+	.logo_out_amp{ min-height:32px;}
+	.about_content h4{ font-size:14px; line-height:19px;}
+	.about_content p{ font-size:16px;}
+	.hc_logo_wrap{ max-width:200px;}
+	
+	.about_content h5{ font-size:13px;}
+	.about_content li{ font-size:13px;}
+	
+	.survey_footer{background-size: auto 81%;}
+	.survey_footer .survey_control{max-width:55px;}
+	#survey_slide_nav { padding: 4px 0;}
+	#survey_slide_nav a{background-size: 100% auto; width:8px; height:8px; margin: 0 1px; line-height:8px;}
+	#survey_slide_nav a.activeSlide{background-size: 100% auto;}
+	
+	/*.switch_text{ max-width:135px;}*/
+	.switch_text img{ max-width:135px;}
+	
+	.switch_scroll_text ul li img{ max-width:136px;}
+	.switch_scroll_text ul li{ padding-bottom:24px;}
+	.switch_scroll_text ul{ padding-top:53px;}
+	
+	
+	.survey_slide_title{min-height: 85px;}
+	.info_i{ left:-18px;}
+}
+
+
+.hidden-stuff{
+	display: none;
+}
